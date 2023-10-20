@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0));
+  width: 100%;
+  height: 1000px;
+}
+header .header-container .nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 150px;
+}
+header .header-container .nav-box .nav-logo {
+  cursor: pointer;
+}
+header .header-container .nav-box .nav-logo a {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+header .header-container .nav-box ul li {
+  display: inline;
+  padding: 32px 24px;
+  cursor: pointer;
+}
+header .header-container .nav-box ul li a {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+header .header-container .nav-box ul li:hover a {
+  color: rgba(255, 255, 255, 0.7);
+}
+header .header-container .header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+}
+header .header-container .header-box .header-text {
+  text-align: center;
+}
+header .header-container .header-box .header-text h1 {
+  font-weight: 500;
+  font-family: "Varela Round", sans-serif;
+  line-height: 104px;
+  letter-spacing: 12px;
+  font-size: 104px;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .header-container .header-box .header-text h2 {
+  font-family: "Nunito", sans-serif;
+  margin: 8px auto 48px;
+  width: 450px;
+  text-wrap: wrap;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+header .header-container .header-box .header-btn {
+  padding: 20px 32px;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #64a19d;
+  border-radius: 6px;
+}
+header .header-container .header-box .header-btn a {
+  font-family: "Varela Round", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  color: white;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#about {
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 120px;
+}
+#about .about-container .about-text {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+}
+#about .about-container .about-text h2 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+#about .about-container .about-text p {
+  font-family: "Nunito", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+#about .about-container .about-text p a {
+  text-decoration: underline;
+  color: #64a19d;
+}
+#about .about-image {
+  margin: 0 20%;
+}
+#about .about-image img {
+  height: 100%;
+}
+
+#projects {
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+#projects .projects-container {
+  padding: 160px 48px;
+  margin: auto;
+  max-width: 1400px;
+}
+#projects .projects-container .shoreline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+#projects .projects-container .shoreline img {
+  width: 75%;
+}
+#projects .projects-container .shoreline .shoreline-text {
+  text-align: center;
+  padding-left: 32px;
+  border-left: 8px solid #64a19d;
+}
+#projects .projects-container .shoreline .shoreline-text h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 24px;
+  color: #212529;
+  margin-bottom: 8px;
+}
+#projects .projects-container .shoreline .shoreline-text p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+#projects .projects-container .misty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #000;
+}
+#projects .projects-container .misty img {
+  width: 50%;
+}
+#projects .projects-container .misty .misty-text {
+  text-align: center;
+  width: 50%;
+  padding: 80px;
+}
+#projects .projects-container .misty .misty-text h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+#projects .projects-container .misty .misty-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+#projects .projects-container .mountains {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #000;
+}
+#projects .projects-container .mountains img {
+  width: 50%;
+}
+#projects .projects-container .mountains .mountains-text {
+  text-align: center;
+  width: 50%;
+  padding: 80px;
+}
+#projects .projects-container .mountains .mountains-text h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+#projects .projects-container .mountains .mountains-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#signup {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+}
+#signup .signup-icon {
+  margin-bottom: 8px;
+}
+#signup .signup-icon i {
+  font-size: 32px;
+  color: #fff;
+}
+#signup h2 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 48px;
+}

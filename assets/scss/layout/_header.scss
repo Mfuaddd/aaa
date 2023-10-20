@@ -1,0 +1,97 @@
+header{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    .header-container{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+        width: 100%;
+        height: 1000px;
+        .nav-box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            padding: 0 150px;
+            .nav-logo{
+                cursor: pointer;
+                a{
+                    font-weight: 700;
+                    letter-spacing:1px;
+                    font-size: 20px;
+                    font-family: 'Nunito', sans-serif;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+            }
+            ul{
+                li{
+                    display: inline;
+                    // margin-left: 20px;
+                    padding: 32px 24px;
+                    cursor: pointer;
+                    a{
+                        letter-spacing:1px;
+                        font-weight: 700;
+
+                        font-family: 'Nunito', sans-serif;
+                        color: rgba(255, 255, 255, 0.5);
+                    }
+                    &:hover{
+                        a{
+                            color: rgba(255, 255, 255, 0.7);
+                        }
+                    }
+                }
+            }
+        }
+        .header-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 800px;
+            .header-text{
+                text-align: center;
+                h1{
+                    font-weight: 500;
+                    font-family: 'Varela Round', sans-serif;
+                    line-height: 104px;
+                    letter-spacing: 12px;
+                    font-size: 104px;
+                    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                }
+                h2{
+                    font-family: 'Nunito', sans-serif;
+                    margin: 8px auto 48px;
+                    width: 450px;
+                    text-wrap:wrap;
+                    color: rgba(255, 255, 255, 0.5);
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                }
+            }
+            .header-btn{
+                padding: 20px 32px;
+                box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+                background-color: #64a19d;
+                border-radius: 6px;
+                a{
+                    font-family: 'Varela Round', sans-serif;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 2.4px;
+                    color: white;
+                    line-height: 1.5;
+                    font-weight: 400;
+
+                }
+            }
+        }
+    }
+}
